@@ -1,0 +1,72 @@
+/**
+ * Main Stylesheet - Calculator Application
+ *
+ * This file contains minimal, beginner-friendly base styling for the
+ * calculator page. The styles here are intentionally simple and provide
+ * a clean foundation without heavy theming or complex layouts.
+ *
+ * More advanced styling, colours, and responsive design will be added
+ * in future updates.
+ */
+
+/* ================================
+   Reset & Box Sizing
+   ================================
+   Use border-box sizing on all elements so that padding and borders
+   are included in the element's total width and height. This makes
+   layout calculations much more predictable.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ================================
+   Base Body Styles
+   ================================
+   Set up the foundational styles for the page: a neutral background,
+   readable font settings, and remove default margins so we have full
+   control over the layout.
+*/
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+/* ================================
+   Layout & Spacing
+   ================================
+   Centre the main content area and constrain its width for comfortable
+   reading. Padding ensures content never touches the viewport edges,
+   which is especially important on mobile devices.
+*/
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    flex: 1;
+}
+
+/* ================================
+   Calculator Placeholder
+   ================================
+   Basic styling for the calculator container to make it visually
+   distinct from the page background. These styles are intentionally
+   minimal and will be replaced with more advanced theming in a
+   future update.
+*/
+#calculator-container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 1rem;
+}
