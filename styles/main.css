@@ -55,3 +55,18 @@ main {
     padding: 1rem;
     flex: 1;
 }
+
+/* ================================
+   Calculator Placeholder
+   ================================
+   Basic styling for the calculator container to make it visually
+   distinct from the page background. These styles are intentionally
+   minimal and will be replaced with more advanced theming in a
+   future update.
+*/
+#calculator-container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 1rem;
+}
